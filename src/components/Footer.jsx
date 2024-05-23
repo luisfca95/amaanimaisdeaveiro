@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="footer-address">
                 <address>
                     Rua da Infância <br/>
-                    Quinta do Loureiro
+                    Quinta do Loureiro <br/>
                 </address>
 
             </div>

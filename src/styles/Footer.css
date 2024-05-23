@@ -1,0 +1,21 @@
+.footer {
+    background-color: #343a40;
+    margin-top: 20px;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: #fff;
+    padding: 5px;
+}
+
+.footer-address {
+    text-align: left;
+}
+
+.footer-social {
+    text-align: right;
+}
