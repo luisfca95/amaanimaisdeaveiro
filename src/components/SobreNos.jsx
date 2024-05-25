@@ -3,9 +3,6 @@ import '../styles/SobreNos.css';
 export default function SobreNos() {
     return (
         <div>
-            <div className="banner">
-                <img src="/images/banner.jpg" alt="AMA - Animais de Aveiro"/>
-            </div>
             <div className="aboutUs">
                 <h1>AMA - Animais de Aveiro</h1>
                 <h2>Quem somos?</h2>

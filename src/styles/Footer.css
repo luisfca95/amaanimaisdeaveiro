@@ -1,21 +1,52 @@
 .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #343a40;
-    margin-top: 20px;
-    padding: 20px;
     color: #fff;
+    padding: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.footer a {
+.footer-address {
     color: #fff;
-    padding: 5px;
+    padding: 10px;
 }
 
-.footer-address {
-    text-align: left;
+.footer-address div {
+    display: flex;
+    padding: 0.5px;
+    align-items: center;
+}
+
+.addressIcon, .addressIcon .icon {
+    width: 30px;
+}
+
+.footer-address .icon {
+    font-size: 24px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .footer-social {
-    text-align: right;
+    margin-right: 30px;
+}
+
+.footer-social .icon {
+    font-size: 48px;
+    padding: 10px;
+}
+
+.footer-social .icon:hover {
+    transform: scale(1.1);
 }
