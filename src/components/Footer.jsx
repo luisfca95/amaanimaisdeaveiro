@@ -31,10 +31,10 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-social">
-                <a href="https://www.facebook.com/AbrigoAMAveiro" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/AbrigoAMAveiro" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faFacebook} className="icon" />
                 </a>
-                <a href="https://www.instagram.com/ama.animaisdeaveiro/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/ama.animaisdeaveiro/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faInstagram} className="icon" />
                 </a>
             </div>

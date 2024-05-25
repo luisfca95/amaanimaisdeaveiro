@@ -1,18 +1,44 @@
-.banner img {
-    width: 100%;
+.aboutUs {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.aboutUs h1 {
+.aboutUs .wrapper {
+    display: flex;
+}
+
+.wrapperRight {
+    text-align: right;
+    margin-right: 15px;
+    align-content: center;
+}
+
+.wrapperLeft {
+    text-align: left;
+    margin-left: 15px;
+    align-content: center;
+}
+
+.aboutUs img {
+    width: 200px;
+    border-radius: 10% 30% 50% 70%;
+}
+
+.aboutUs img:hover {
+    transform: scale(1.1);
+}
+
+h1 {
     display: none;
 }
 
-.aboutUs h2 {
-    font-size: 25px;
-    color: #343a40;
+h2 {
+    font-size: 24px;
+    color: #666;
 }
 
-.aboutUs p {
+p {
     font-size: 18px;
-    margin: 20px;
-    text-align: center;
+    color: #444;
+    line-height: 1.5;
 }

@@ -2,19 +2,19 @@
     display: flex;
     justify-content: center;
     background-color: #343a40;
-    padding: 10px;
+    padding: 20px;
     margin: 0 0 20px 0;
 }
 
 .navbar li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 .navbar a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 18px 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -22,4 +22,5 @@
     background-color: #495057;
     color: #ffffff;
     border-radius: 5px;
+    text-decoration: none;
 }
