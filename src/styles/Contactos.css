@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapa {
+    width: 50%;
+}
+
+.formulario {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario textarea {
+    height: 200px;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
