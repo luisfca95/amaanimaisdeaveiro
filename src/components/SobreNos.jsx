@@ -2,7 +2,7 @@ import '../styles/SobreNos.css';
 
 export default function SobreNos() {
     return (
-        <div>
+        <div className="content">
             <div className="aboutUs">
                 <h1>AMA - Animais de Aveiro</h1>
                 <div className="wrapper">

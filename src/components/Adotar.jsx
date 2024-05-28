@@ -1,3 +1,5 @@
+import '../styles/Adotar.css';
+
 import React from "react";
 import { useState, useEffect } from "react";
 
@@ -12,13 +14,16 @@ export default function Adotar() {
     }, []);
 
     return (
-        <div>
+        <div className="content">
             <h1>Animais disponíveis para adoção</h1>
-            <ul>
+            <div className="dog">
                 {animais.map(animal => (
-                    <li key={animal.id}>{animal.nome}</li>
+                    <div key={animal.id}>
+                        <img src={animal.foto} alt=""/>
+                        <p>{animal.nome}</p>
+                    </div>
                 ))}
-            </ul>
+            </div>
         </div>
     );
 }

@@ -1,15 +1,6 @@
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
-.mapa {
-    width: 50%;
-}
-
-.formulario {
-    width: 50%;
-    padding-right: 100px;
+.contactos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .formulario form {

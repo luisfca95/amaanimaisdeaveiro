@@ -55,3 +55,8 @@ body {
 	font-family: 'Lucida Sans', sans-serif ;
 	background-color: 	#fefbfb;
 }
+
+.content {
+	max-width: 800px;
+    margin: 0 auto;
+}
