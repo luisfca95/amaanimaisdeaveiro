@@ -4,19 +4,19 @@
 
 .wrapperRight {
     text-align: right;
-    margin-right: 15px;
+    margin-right: 0.938rem;
     align-content: center;
 }
 
 .wrapperLeft {
     text-align: left;
-    margin-left: 15px;
+    margin-left: 0.938rem;
     align-content: center;
 }
 
 .aboutUs img {
-    width: 200px;
-    border-radius: 10% 30% 50% 70%;
+    width: 12.5rem;
+    border-radius: 10% 20% 30% 40%;
 }
 
 .aboutUs img:hover {
@@ -28,12 +28,16 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
     color: #666;
 }
 
 p {
-    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.12rem;
     color: #444;
     line-height: 1.5;
 }

@@ -7,7 +7,15 @@ import { faLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 export default function Footer() {
     return (
         <footer className="footer">
-            <div className="footer-address">
+            <div className="footerSocial">
+                <a href="https://www.facebook.com/AbrigoAMAveiro" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faFacebook} className="icon" />
+                </a>
+                <a href="https://www.instagram.com/ama.animaisdeaveiro/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faInstagram} className="icon" />
+                </a>
+            </div>
+            <div className="footerAddress">
                 <div>
                     <div className="addressIcon">
                         <FontAwesomeIcon icon={faLocationDot} className="icon" />
@@ -18,9 +26,8 @@ export default function Footer() {
                         </address>
                     </div>
                 </div>
-
                 <div>
-                    <div className="addressIcon">
+                    <div className="emailIcon">
                         <FontAwesomeIcon icon={faEnvelope} className="icon" />
                     </div>
                     <div>
@@ -29,14 +36,6 @@ export default function Footer() {
                         </a>
                     </div>
                 </div>
-            </div>
-            <div className="footer-social">
-                <a href="https://www.facebook.com/AbrigoAMAveiro" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faFacebook} className="icon" />
-                </a>
-                <a href="https://www.instagram.com/ama.animaisdeaveiro/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faInstagram} className="icon" />
-                </a>
             </div>
         </footer>
     );

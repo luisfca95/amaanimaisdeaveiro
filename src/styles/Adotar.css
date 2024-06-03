@@ -1,8 +1,16 @@
 .dog {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.dog div {
+    background-color: #e4e1e1;
+    margin: 0.625rem;
+    padding: 0.625rem;
 }
 
 .dog p {
-    padding-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }

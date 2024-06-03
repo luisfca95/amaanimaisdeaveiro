@@ -1,0 +1,14 @@
+.donations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.donations h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.donations p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
