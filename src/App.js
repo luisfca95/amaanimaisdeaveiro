@@ -8,7 +8,7 @@ import Adotar from './components/Adotar';
 import Contactos from './components/Contactos';
 import Doar from './components/Doar';
 import SobreNos from './components/SobreNos';
-import Voluntariado from './components/Voluntariado';
+import Ajudar from './components/Ajudar';
 import Footer from './components/Footer';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Route path="/" element={<SobreNos/>} />
           <Route path="/SobreNos" element={<SobreNos/>} />
           <Route path="/Adotar" element={<Adotar/>} />
-          <Route path="/Voluntariado" element={<Voluntariado/>} />
+          <Route path="/Ajudar" element={<Ajudar/>} />
           <Route path="/Doar" element={<Doar/>} />    
           <Route path="/Contactos" element={<Contactos/>} />     
         </Routes>

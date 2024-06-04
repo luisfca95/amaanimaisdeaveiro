@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-import '../styles/Voluntariado.css';
+import '../styles/Ajudar.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaw } from '@fortawesome/free-solid-svg-icons';

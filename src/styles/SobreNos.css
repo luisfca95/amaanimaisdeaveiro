@@ -41,3 +41,7 @@ p {
     color: #444;
     line-height: 1.5;
 }
+
+.banner img {
+    max-width: 100%;
+}
