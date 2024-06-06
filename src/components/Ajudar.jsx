@@ -50,6 +50,7 @@ export default function Voluntariado() {
     return (
         <div className="content">
             <h1>9 formas de ajudar</h1>
+            <p>Estas são as 9 formas de ajudar...</p>
             <ul>
                 {items.map((item, index) => (
                     <li key={index} onClick={() => handleExpand(index)}>

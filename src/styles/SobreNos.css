@@ -17,6 +17,7 @@
 .aboutUs img {
     width: 12.5rem;
     border-radius: 10% 20% 30% 40%;
+    transition: transform 0.3s ease-in-out;
 }
 
 .aboutUs img:hover {
@@ -40,8 +41,4 @@ p {
     font-size: 1.12rem;
     color: #444;
     line-height: 1.5;
-}
-
-.banner img {
-    max-width: 100%;
 }

@@ -15,6 +15,8 @@ export default function Adotar() {
     return (
         <div className="content">
             <h1>Animais disponíveis para adoção</h1>
+            <p>Caso pretenda adoptar um patudo, deverá preencher o formulário de pré-adopção, clicando <a href="https://docs.google.com/forms/d/e/1FAIpQLScMmQnDV5i6KQRLwAPzsigKC0Qz2WKYxlQGxm1CKZA0yw9RyQ/viewform" aria-label="Formulário de pré-adopção" target="_blank" rel="noopener noreferrer">aqui</a>.</p>
+            <p></p>
             <div className="dog">
                 {animais.map(animal => (
                     <div key={animal.id}>
