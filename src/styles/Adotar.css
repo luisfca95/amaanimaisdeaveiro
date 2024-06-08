@@ -20,6 +20,11 @@
     font-weight: 400;
 }
 
+.dog img {
+    width: 12.5rem;
+    height: 17.188rem;
+}
+
 .pagination button {
     margin: 0 5px;
     padding: 8px 16px;

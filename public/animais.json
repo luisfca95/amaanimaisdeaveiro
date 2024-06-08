@@ -2,402 +2,339 @@
 	"animais": [
 		{
 			"id": 1,
-			"nome": "Tejinha",
+			"nome": "Aleluia",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Aleluia.jpg"
 		},
 		{
 			"id": 2,
-			"nome": "Scooby",
+			"nome": "Alma",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Alma.jpg"
 		},
 		{
 			"id": 3,
-			"nome": "Loba",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 4,
-			"nome": "Joana",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 5,
-			"nome": "Jordan",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 6,
-			"nome": "Bebé",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 7,
-			"nome": "Mel",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 8,
 			"nome": "Avelã",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Avela.jpg"
+		},
+		{
+			"id": 4,
+			"nome": "Caramelo",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Caramelo.jpg"
+		},
+		{
+			"id": 5,
+			"nome": "Carol",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Carol.jpg"
+		},
+		{
+			"id": 6,
+			"nome": "Chocapic",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Chocapic.jpg"
+		},
+		{
+			"id": 7,
+			"nome": "Conguito",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Conguito.jpg"
+		},
+		{
+			"id": 8,
+			"nome": "Cookie",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Cookie.jpg"
 		},
 		{
 			"id": 9,
-			"nome": "Felicity",
+			"nome": "Egas",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Egas.jpg"
 		},
 		{
 			"id": 10,
-			"nome": "Pimpolho",
+			"nome": "Esmeralda",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Esmeralda.jpg"
 		},
 		{
 			"id": 11,
 			"nome": "Farrusco",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Farrusco.jpg"
 		},
 		{
 			"id": 12,
-			"nome": "Chocapic",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 13,
-			"nome": "Slim",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 14,
-			"nome": "Júlia",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 15,
-			"nome": "Julieta",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 16,
 			"nome": "Feijão",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Feijao.jpg"
 		},
 		{
-			"id": 17,
-			"nome": "Cookie",
+			"id": 13,
+			"nome": "Felicity",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Felicity.jpg"
 		},
 		{
-			"id": 18,
-			"nome": "Conguito",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 19,
-			"nome": "Olívia",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 20,
-			"nome": "Puki",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 21,
-			"nome": "Saltitona",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 22,
-			"nome": "Glorinha",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 23,
-			"nome": "Pedro",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 24,
+			"id": 14,
 			"nome": "Fiona",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Fiona.jpg"
 		},
 		{
-			"id": 25,
-			"nome": "Nina",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 26,
-			"nome": "Miller",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 27,
-			"nome": "Alma",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 28,
-			"nome": "Zeus",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 29,
-			"nome": "Hulk",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 30,
-			"nome": "Paz",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 31,
-			"nome": "Sandy",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 32,
-			"nome": "Pintas",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 33,
-			"nome": "Pit",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 34,
-			"nome": "Lorena",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 35,
-			"nome": "Many",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 36,
-			"nome": "Carol",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 37,
-			"nome": "Sol",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 38,
+			"id": 15,
 			"nome": "Fofinho",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Glorinha.jpg"
 		},
 		{
-			"id": 39,
-			"nome": "Dalila",
+			"id": 16,
+			"nome": "Hulk",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Hulk.jpg"
 		},
 		{
-			"id": 40,
-			"nome": "Nina",
+			"id": 17,
+			"nome": "Joana",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Joana.jpg"
 		},
 		{
-			"id": 41,
-			"nome": "Passa",
+			"id": 18,
+			"nome": "Loba",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Loba.jpg"
 		},
 		{
-			"id": 42,
-			"nome": "Pretinha",
+			"id": 19,
+			"nome": "Lorena",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Lorena.jpg"
 		},
 		{
-			"id": 43,
-			"nome": "Zé",
+			"id": 20,
+			"nome": "Lucky",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Lucky.jpg"
 		},
 		{
-			"id": 44,
-			"nome": "Máscara",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 45,
-			"nome": "Olívia",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 46,
-			"nome": "Caramelo",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 47,
-			"nome": "Patrícia",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 48,
-			"nome": "Aleluia",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 49,
-			"nome": "Milka",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 50,
-			"nome": "Esmeralda",
-			"sexo": "",
-			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
-		},
-		{
-			"id": 51,
+			"id": 21,
 			"nome": "Luna",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Luna.jpg"
 		},
 		{
-			"id": 52,
+			"id": 22,
+			"nome": "Luna Branca",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/LunaBranca.jpg"
+		},
+		{
+			"id": 23,
+			"nome": "Manny",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Manny.jpg"
+		},
+		{
+			"id": 24,
 			"nome": "Marinha",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Marinha.jpg"
 		},
 		{
-			"id": 53,
+			"id": 25,
+			"nome": "Mascara",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Mascara.jpg"
+		},
+		{
+			"id": 26,
+			"nome": "Mel",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Mel.jpg"
+		},
+		{
+			"id": 27,
+			"nome": "Milka",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Milka.jpg"
+		},
+		{
+			"id": 28,
+			"nome": "Miller",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Miller.jpg"
+		},
+		{
+			"id": 29,
+			"nome": "Moniz",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Moniz.jpg"
+		},
+		{
+			"id": 30,
+			"nome": "Olivia",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Olivia.jpg"
+		},
+		{
+			"id": 31,
+			"nome": "Passa",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Passa.jpg"
+		},
+		{
+			"id": 32,
+			"nome": "Patricia",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Patricia.jpg"
+		},
+		{
+			"id": 33,
+			"nome": "Paz",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Paz.jpg"
+		},
+		{
+			"id": 34,
 			"nome": "Pedro",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Pedro.jpg"
 		},
 		{
-			"id": 54,
-			"nome": "Lindinha",
+			"id": 35,
+			"nome": "Pimpolho",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Pimpolho.jpg"
 		},
 		{
-			"id": 55,
-			"nome": "Danny",
+			"id": 36,
+			"nome": "Pintas",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Pintas.jpg"
 		},
 		{
-			"id": 56,
+			"id": 37,
+			"nome": "Pit",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Pit.jpg"
+		},
+		{
+			"id": 38,
+			"nome": "Pretinha",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Pretinha.jpg"
+		},
+		{
+			"id": 39,
+			"nome": "Roma",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Roma.jpg"
+		},
+		{
+			"id": 40,
+			"nome": "Saltitona",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Saltitona.jpg"
+		},
+		{
+			"id": 41,
+			"nome": "Sara",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Sara.jpg"
+		},
+		{
+			"id": 42,
+			"nome": "Scooby",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Scooby.jpg"
+		},
+		{
+			"id": 43,
+			"nome": "Slim",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Slim.jpg"
+		},
+		{
+			"id": 44,
+			"nome": "Sol",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Sol.jpg"
+		},
+		{
+			"id": 45,
+			"nome": "Tejinha",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Tejinha.jpg"
+		},
+		{
+			"id": 46,
 			"nome": "Tobias",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Tobias.jpg"
 		},
 		{
-			"id": 57,
-			"nome": "Solo",
+			"id": 47,
+			"nome": "Zé",
 			"sexo": "",
 			"idade": "",
-			"foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WSvPF5mVPIcOtXU2wv_ZqCJIGtMcCrsWTg&s"
+			"foto": "/images/dogs/Ze.jpg"
+		},
+		{
+			"id": 48,
+			"nome": "Zeus",
+			"sexo": "",
+			"idade": "",
+			"foto": "/images/dogs/Zeus.jpg"
 		}
 	]
 }

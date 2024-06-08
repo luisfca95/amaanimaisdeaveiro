@@ -48,17 +48,22 @@ export default function Voluntariado() {
     ];
 
     return (
-        <div className="content">
-            <h1>9 formas de ajudar</h1>
-            <p>Estas são as 9 formas de ajudar...</p>
-            <ul>
-                {items.map((item, index) => (
-                    <li key={index} onClick={() => handleExpand(index)}>
-                        <FontAwesomeIcon icon={faPaw} /> &nbsp; {item.title}
-                        {expandedIndex === index && <p>{item.content}</p>}
-                    </li>
-                ))}
-            </ul>
+        <div>
+            <div className="banner">
+                <img src="/images/banner.jpg" alt=""/>
+                <div className="title"><h1>Ajudar</h1></div>
+            </div>
+            <div className="content">
+                <p>Estas são as 9 formas de ajudar...</p>
+                <ul>
+                    {items.map((item, index) => (
+                        <li key={index} onClick={() => handleExpand(index)}>
+                            <FontAwesomeIcon icon={faPaw} /> &nbsp; {item.title}
+                            {expandedIndex === index && <p>{item.content}</p>}
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </div>
     );
 }

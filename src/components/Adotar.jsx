@@ -38,36 +38,42 @@ export default function Adotar() {
     };
 
     return (
-        <div className="content">
-            <h1>Animais disponíveis para adoção</h1>
-            <p>Caso pretenda adoptar um patudo, deverá preencher o formulário de pré-adopção, clicando <a href="https://docs.google.com/forms/d/e/1FAIpQLScMmQnDV5i6KQRLwAPzsigKC0Qz2WKYxlQGxm1CKZA0yw9RyQ/viewform" aria-label="Formulário de pré-adopção" target="_blank" rel="noopener noreferrer">aqui</a>.</p>
-            <div className="dog">
-                {currentAnimals.map(animal => (
-                    <div key={animal.id}>
-                        <img src={animal.foto} alt={animal.nome} />
-                        <p>{animal.nome}</p>
-                    </div>
-                ))}
+        <div>
+            <div className="banner">
+                <img src="/images/banner.jpg" alt=""/>
+                <div className="title"><h1>Adotar</h1></div>
             </div>
-            <div className="pagination">
-                <button onClick={handlePreviousClick} disabled={currentPage === 1}>
-                    Anterior
-                </button>
-
-                {Array.from({ length: totalPages }, (_, index) => (
-                    <button 
-                        key={index + 1} 
-                        onClick={() => handleClick(index + 1)} 
-                        className={currentPage === index + 1 ? 'active' : ''}
-                    >
-                        {index + 1}
+            <div className="content">
+                <p>Caso pretenda adoptar um patudo, deverá preencher o formulário de pré-adopção, clicando <a href="https://docs.google.com/forms/d/e/1FAIpQLScMmQnDV5i6KQRLwAPzsigKC0Qz2WKYxlQGxm1CKZA0yw9RyQ/viewform" aria-label="Formulário de pré-adopção" target="_blank" rel="noopener noreferrer">aqui</a>.</p>
+                <div className="dog">
+                    {currentAnimals.map(animal => (
+                        <div key={animal.id}>
+                            <img src={animal.foto} alt={animal.nome} />
+                            <p>{animal.nome}</p>
+                        </div>
+                    ))}
+                </div>
+                <div className="pagination">
+                    <button onClick={handlePreviousClick} disabled={currentPage === 1}>
+                        Anterior
                     </button>
-                ))}
 
-                <button onClick={handleNextClick} disabled={currentPage === totalPages}>
-                    Próximo
-                </button>
+                    {Array.from({ length: totalPages }, (_, index) => (
+                        <button 
+                            key={index + 1} 
+                            onClick={() => handleClick(index + 1)} 
+                            className={currentPage === index + 1 ? 'active' : ''}
+                        >
+                            {index + 1}
+                        </button>
+                    ))}
+
+                    <button onClick={handleNextClick} disabled={currentPage === totalPages}>
+                        Próximo
+                    </button>
+                </div>
             </div>
+
         </div>
     );
 }

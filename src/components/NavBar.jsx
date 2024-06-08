@@ -14,9 +14,6 @@ export default function NavBar() {
                     <li><NavLink to="/Contactos">CONTACTOS</NavLink></li>
                 </ul>
             </nav>
-            <div className="banner">
-                <img src="/images/banner.jpg" alt=""/>
-            </div>
         </div>
     );
 }

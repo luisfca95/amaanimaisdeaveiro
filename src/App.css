@@ -63,3 +63,33 @@ body {
 	max-width: 50rem;
     margin: 0 auto;
 }
+
+.banner {
+    margin-bottom: 0.625rem;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: #000;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 4.5rem;
+    color: #ffaead;
+	text-transform: uppercase;
+}
