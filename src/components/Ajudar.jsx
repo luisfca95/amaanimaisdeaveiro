@@ -50,7 +50,7 @@ export default function Voluntariado() {
     return (
         <div>
             <div className="banner">
-                <img src="/images/banner.jpg" alt=""/>
+                <img src="/images/banners/banner_v2.jpg" alt=""/>
                 <div className="title"><h1>Ajudar</h1></div>
             </div>
             <div className="content">

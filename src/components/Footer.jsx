@@ -24,7 +24,7 @@ export default function Footer() {
                         <address>
                             Rua da Infância, Quinta do Loureiro
                         </address>
-                    </div>
+                    </div> 
                 </div>
                 <div>
                     <div className="emailIcon">

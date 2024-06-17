@@ -55,7 +55,6 @@ table {
 
 body {
 	font-family: "Montserrat", sans-serif;
-	font-style: normal;
 	background-color: #fefbfb;
 }
 
@@ -70,26 +69,25 @@ body {
 
 .banner img {
     width: 100%;
-    height: auto;
-}
-
-.banner {
-    position: relative;
-    text-align: center;
-    color: #000;
-}
-
-.title {
-	position: absolute;
-	top: 50%;
-	left: 30%;
-	transform: translate(-50%, -50%);
+	height: auto;
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
+	display: none;
+}
+
+h2 {
+	font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 4.5rem;
-    color: #ffaead;
-	text-transform: uppercase;
+    font-size: 2rem;
+    color: #333;
+    padding: 0.625rem;
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
 }

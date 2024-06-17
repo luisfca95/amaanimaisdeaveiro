@@ -4,7 +4,7 @@ export default function Contactos() {
     return (
         <div>
             <div className="banner">
-                <img src="/images/banner.jpg" alt=""/>
+                <img src="/images/banners/banner_v2.jpg" alt=""/>
                 <div className="title"><h1>Contactos</h1></div>
             </div>
             <div className="content contactos">
@@ -14,7 +14,7 @@ export default function Contactos() {
                 <div className="formulario">
                     <form>
                         <p>Escreva-nos uma mensagem</p>
-                        <input type="text" placeholder="Nome" aria-label="Nome" name="name"/>
+                        <input type="text" placeholder="name" aria-label="name" name="name"/>
                         <input type="email" placeholder="E-mail" aria-label="E-mail" name="email"/>
                         <textarea placeholder="Comentários" aria-label="Comentários" name="comments"/>
                         <button type="submit">Enviar</button>

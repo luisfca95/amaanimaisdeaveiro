@@ -4,7 +4,7 @@ export default function Doar() {
     return (
         <div>
             <div className="banner">
-                <img src="/images/banner.jpg" alt=""/>
+                <img src="/images/banners/banner_v2.jpg" alt=""/>
                 <div className="title"><h1>Doar</h1></div>
             </div>
             <h2>Ajude-nos a salvar vidas!</h2>

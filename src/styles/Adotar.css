@@ -10,14 +10,10 @@
 }
 
 .dog div {
-    background-color: #e4e1e1;
+    background-color: #f3f3f3;
+    box-shadow: 0.063rem 0.063rem 0.063rem 0.063rem #855f49;
     margin: 0.625rem;
     padding: 0.625rem;
-}
-
-.dog p {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
 }
 
 .dog img {
@@ -26,8 +22,8 @@
 }
 
 .pagination button {
-    margin: 0 5px;
-    padding: 8px 16px;
+    margin: 0 0.313rem;
+    padding: 0.5rem 1rem;
     border: none;
     background-color: #e4e1e1;
     cursor: pointer;
@@ -36,10 +32,17 @@
 .pagination button.active {
     background-color: #343a40;
     color: #fff;
-    font-weight: bold;
 }
 
 .pagination button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
+}
+
+.dog .venus-icon {
+    color: #ff69b4;
+}
+
+.dog .mars-icon {
+    color: #4169e1;
 }

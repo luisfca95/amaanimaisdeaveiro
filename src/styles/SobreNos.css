@@ -1,40 +1,23 @@
-.aboutUs .wrapper {
+.wrapper {
     display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f3f3f3;
+    box-shadow: 0.188rem 0.188rem #855f49, -1em 0 .4em #d4c3b4;
+    border-radius: 0.5rem;
 }
 
-.wrapperRight {
-    text-align: right;
-    margin-right: 0.938rem;
-    align-content: center;
+.text {
+    padding: 1rem;
 }
 
-.wrapperLeft {
-    text-align: left;
-    margin-left: 0.938rem;
-    align-content: center;
-}
-
-.aboutUs img {
-    width: 12.5rem;
-    border-radius: 10% 20% 30% 40%;
+.image img {
+    max-width: 23rem;
+    border-radius: 0.5rem;
     transition: transform 0.3s ease-in-out;
 }
 
-.aboutUs img:hover {
-    transform: scale(1.1);
-}
-
-h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-    color: #666;
-}
-
-p {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 1.12rem;
-    color: #444;
-    line-height: 1.5;
+.image img:hover {
+    transform: scale(1.05);
 }
