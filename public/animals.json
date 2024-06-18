@@ -1,0 +1,292 @@
+{
+	"animals": [
+		{
+			"id": 1,
+			"name": "Aleluia",
+			"sex": "F",
+			"image": "/images/dogs/Aleluia.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Alma",
+			"sex": "F",
+			"image": "/images/dogs/Alma.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Avelã",
+			"sex": "F",
+			"image": "/images/dogs/Avela.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Caramelo",
+			"sex": "M",
+			"image": "/images/dogs/Caramelo.jpg"
+		},
+		{
+			"id": 5,
+			"name": "Carol",
+			"sex": "F",
+			"image": "/images/dogs/Carol.jpg"
+		},
+		{
+			"id": 6,
+			"name": "Chocapic",
+			"sex": "M",
+			"image": "/images/dogs/Chocapic.jpg"
+		},
+		{
+			"id": 7,
+			"name": "Conguito",
+			"sex": "M",
+			"image": "/images/dogs/Conguito.jpg"
+		},
+		{
+			"id": 8,
+			"name": "Cookie",
+			"sex": "M",
+			"image": "/images/dogs/Cookie.jpg"
+		},
+		{
+			"id": 9,
+			"name": "Egas",
+			"sex": "M",
+			"image": "/images/dogs/Egas.jpg"
+		},
+		{
+			"id": 10,
+			"name": "Esmeralda",
+			"sex": "F",
+			"image": "/images/dogs/Esmeralda.jpg"
+		},
+		{
+			"id": 11,
+			"name": "Farrusco",
+			"sex": "M",
+			"image": "/images/dogs/Farrusco.jpg"
+		},
+		{
+			"id": 12,
+			"name": "Feijão",
+			"sex": "M",
+			"image": "/images/dogs/Feijao.jpg"
+		},
+		{
+			"id": 13,
+			"name": "Felicity",
+			"sex": "F",
+			"image": "/images/dogs/Felicity.jpg"
+		},
+		{
+			"id": 14,
+			"name": "Fiona",
+			"sex": "F",
+			"image": "/images/dogs/Fiona.jpg"
+		},
+		{
+			"id": 15,
+			"name": "Fofinho",
+			"sex": "M",
+			"image": "/images/dogs/Glorinha.jpg"
+		},
+		{
+			"id": 16,
+			"name": "Hulk",
+			"sex": "M",
+			"image": "/images/dogs/Hulk.jpg"
+		},
+		{
+			"id": 17,
+			"name": "Joana",
+			"sex": "F",
+			"image": "/images/dogs/Joana.jpg"
+		},
+		{
+			"id": 18,
+			"name": "Loba",
+			"sex": "F",
+			"image": "/images/dogs/Loba.jpg"
+		},
+		{
+			"id": 19,
+			"name": "Lorena",
+			"sex": "F",
+			"image": "/images/dogs/Lorena.jpg"
+		},
+		{
+			"id": 20,
+			"name": "Lucky",
+			"sex": "M",
+			"image": "/images/dogs/Lucky.jpg"
+		},
+		{
+			"id": 21,
+			"name": "Luna",
+			"sex": "F",
+			"image": "/images/dogs/Luna.jpg"
+		},
+		{
+			"id": 22,
+			"name": "Luna Branca",
+			"sex": "F",
+			"image": "/images/dogs/LunaBranca.jpg"
+		},
+		{
+			"id": 23,
+			"name": "Manny",
+			"sex": "M",
+			"image": "/images/dogs/Manny.jpg"
+		},
+		{
+			"id": 24,
+			"name": "Marinha",
+			"sex": "F",
+			"image": "/images/dogs/Marinha.jpg"
+		},
+		{
+			"id": 25,
+			"name": "Mascara",
+			"sex": "M",
+			"image": "/images/dogs/Mascara.jpg"
+		},
+		{
+			"id": 26,
+			"name": "Mel",
+			"sex": "M",
+			"image": "/images/dogs/Mel.jpg"
+		},
+		{
+			"id": 27,
+			"name": "Milka",
+			"sex": "M",
+			"image": "/images/dogs/Milka.jpg"
+		},
+		{
+			"id": 28,
+			"name": "Miller",
+			"sex": "M",
+			"image": "/images/dogs/Miller.jpg"
+		},
+		{
+			"id": 29,
+			"name": "Moniz",
+			"sex": "M",
+			"image": "/images/dogs/Moniz.jpg"
+		},
+		{
+			"id": 30,
+			"name": "Olivia",
+			"sex": "F",
+			"image": "/images/dogs/Olivia.jpg"
+		},
+		{
+			"id": 31,
+			"name": "Passa",
+			"sex": "F",
+			"image": "/images/dogs/Passa.jpg"
+		},
+		{
+			"id": 32,
+			"name": "Patricia",
+			"sex": "F",
+			"image": "/images/dogs/Patricia.jpg"
+		},
+		{
+			"id": 33,
+			"name": "Paz",
+			"sex": "F",
+			"image": "/images/dogs/Paz.jpg"
+		},
+		{
+			"id": 34,
+			"name": "Pedro",
+			"sex": "M",
+			"image": "/images/dogs/Pedro.jpg"
+		},
+		{
+			"id": 35,
+			"name": "Pimpolho",
+			"sex": "M",
+			"image": "/images/dogs/Pimpolho.jpg"
+		},
+		{
+			"id": 36,
+			"name": "Pintas",
+			"sex": "M",
+			"image": "/images/dogs/Pintas.jpg"
+		},
+		{
+			"id": 37,
+			"name": "Pit",
+			"sex": "M",
+			"image": "/images/dogs/Pit.jpg"
+		},
+		{
+			"id": 38,
+			"name": "Pretinha",
+			"sex": "F",
+			"image": "/images/dogs/Pretinha.jpg"
+		},
+		{
+			"id": 39,
+			"name": "Roma",
+			"sex": "F",
+			"image": "/images/dogs/Roma.jpg"
+		},
+		{
+			"id": 40,
+			"name": "Saltitona",
+			"sex": "F",
+			"image": "/images/dogs/Saltitona.jpg"
+		},
+		{
+			"id": 41,
+			"name": "Sara",
+			"sex": "F",
+			"image": "/images/dogs/Sara.jpg"
+		},
+		{
+			"id": 42,
+			"name": "Scooby",
+			"sex": "M",
+			"image": "/images/dogs/Scooby.jpg"
+		},
+		{
+			"id": 43,
+			"name": "Slim",
+			"sex": "M",
+			"image": "/images/dogs/Slim.jpg"
+		},
+		{
+			"id": 44,
+			"name": "Sol",
+			"sex": "F",
+			"image": "/images/dogs/Sol.jpg"
+		},
+		{
+			"id": 45,
+			"name": "Tejinha",
+			"sex": "F",
+			"image": "/images/dogs/Tejinha.jpg"
+		},
+		{
+			"id": 46,
+			"name": "Tobias",
+			"sex": "M",
+			"image": "/images/dogs/Tobias.jpg"
+		},
+		{
+			"id": 47,
+			"name": "Zé",
+			"sex": "M",
+			"image": "/images/dogs/Ze.jpg"
+		},
+		{
+			"id": 48,
+			"name": "Zeus",
+			"sex": "M",
+			"image": "/images/dogs/Zeus.jpg"
+		}
+	]
+}

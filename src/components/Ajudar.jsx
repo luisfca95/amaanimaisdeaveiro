@@ -50,11 +50,11 @@ export default function Voluntariado() {
     return (
         <div>
             <div className="banner">
-                <img src="/images/banners/banner_v2.jpg" alt=""/>
+                <img src="/images/banners/ajudar.jpg" alt=""/>
                 <div className="title"><h1>Ajudar</h1></div>
             </div>
             <div className="content">
-                <p>Estas são as 9 formas de ajudar...</p>
+                <p>Estas são as formas de ajudar os nossos patudos...</p>
                 <ul>
                     {items.map((item, index) => (
                         <li key={index} onClick={() => handleExpand(index)}>

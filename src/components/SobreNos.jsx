@@ -5,7 +5,7 @@ export default function SobreNos() {
         <div>
             <div className="banner">
                 <h1>Sobre a AMA</h1>
-                <img src="/images/banners/banner_v2.jpg" alt=""/>
+                <img src="/images/banners/sobre.jpg" alt=""/>
             </div>
             <div className="content">
                 <div className="aboutUs">

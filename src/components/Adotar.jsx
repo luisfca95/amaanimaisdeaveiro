@@ -52,10 +52,9 @@ export default function Adopt() {
         <div>
             <div className="banner">
                 <h1>Adotar</h1>
-                <img src="/images/banners/banner_v2.jpg" alt=""/>
+                <img src="/images/banners/adotar.jpg" alt=""/>
             </div>
             <div className="content">
-                <h2>Os nossos Patudos</h2>
                 <p>Caso pretenda adoptar um patudo, deverá preencher o formulário de pré-adopção, clicando <a href="https://docs.google.com/forms/d/e/1FAIpQLScMmQnDV5i6KQRLwAPzsigKC0Qz2WKYxlQGxm1CKZA0yw9RyQ/viewform" aria-label="Formulário de pré-adopção" target="_blank" rel="noopener noreferrer">aqui</a>.</p>
                 <div className="dog">
                     {currentAnimals.map(animal => (
