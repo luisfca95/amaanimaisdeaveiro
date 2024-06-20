@@ -18,7 +18,7 @@
 }
 
 .dogs .dog:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .dog img {
@@ -30,19 +30,20 @@
     margin: 0 0.313rem;
     padding: 0.5rem 1rem;
     border: none;
-    background-color: #e4e1e1;
+    background-color: #d4c2b4;
     cursor: pointer;
     border-radius: 0.625rem;
 
 }
 
 .pagination button.active {
-    background-color: #343a40;
-    color: #fff;
+    background-color: #855f4a;
+    color: #333;
 }
 
 .pagination button:disabled {
-    background-color: #ccc;
+    background-color: #855f4a;
+    color: #333;
     cursor: not-allowed;
 }
 
@@ -72,4 +73,18 @@
     margin: 1rem;
     font-size: 1.2rem;
     color: #999;
+}
+
+.adoptBtn {
+    background-color: #d4c2b4; 
+    color: #333; 
+    border: none; 
+    border-radius: 0.rem; 
+    padding: 0.625rem 1.25rem;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.adoptBtn:hover {
+    background-color: #855f4a; 
 }

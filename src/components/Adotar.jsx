@@ -76,6 +76,9 @@ export default function Adopt() {
                             <div className="dog" key={animal.id}>
                                 <img src={animal.image} alt={animal.name} />
                                 <p>{animal.name} {getSexIcon(animal.sex)}</p>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScMmQnDV5i6KQRLwAPzsigKC0Qz2WKYxlQGxm1CKZA0yw9RyQ/viewform" target="_blank" rel="noopener noreferrer">
+                                    <button className="adoptBtn">Adotar</button>
+                                </a>
                             </div>
                         ))
                     ) : (
