@@ -62,10 +62,10 @@ export default function Adopt() {
                 <img src="/images/banners/adotar.jpg" alt=""/>
             </div>
             <div className="content">
-                <p>Caso pretenda adoptar um patudo, deverá preencher o formulário de pré-adopção, clicando <a href="https://docs.google.com/forms/d/e/1FAIpQLScMmQnDV5i6KQRLwAPzsigKC0Qz2WKYxlQGxm1CKZA0yw9RyQ/viewform" aria-label="Formulário de pré-adopção" target="_blank" rel="noopener noreferrer">aqui</a>.</p>
+                <h2>Caso pretenda adoptar um patudo, deverá preencher o formulário de pré-adopção, clicando <a href="https://docs.google.com/forms/d/e/1FAIpQLScMmQnDV5i6KQRLwAPzsigKC0Qz2WKYxlQGxm1CKZA0yw9RyQ/viewform" aria-label="Formulário de pré-adopção" target="_blank" rel="noopener noreferrer">aqui</a>.</h2>
                 <input 
                     type="text" 
-                    placeholder="Pesquisar por nome" 
+                    placeholder="Pesquisar por nome..." 
                     value={search} 
                     onChange={handleSearchChange} 
                     className="searchBar"

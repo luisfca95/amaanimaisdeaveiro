@@ -54,8 +54,8 @@ export default function Voluntariado() {
                 <div className="title"><h1>Ajudar</h1></div>
             </div>
             <div className="content">
-                <p>Estas são as formas de ajudar os nossos patudos...</p>
-                <ul>
+                <h2>Estas são as formas de ajudar os nossos patudos...</h2>
+                <ul className="waysHelping">
                     {items.map((item, index) => (
                         <li key={index} onClick={() => handleExpand(index)}>
                             <FontAwesomeIcon icon={faPaw} /> &nbsp; {item.title}

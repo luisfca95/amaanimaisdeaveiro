@@ -1,5 +1,16 @@
-.content p a {
-    color:#666;
+.content h2 {
+    font-size: 1rem; 
+    font-weight: bold; 
+    margin: 1rem 0; 
+    text-transform: uppercase; 
+    letter-spacing: 0.1rem;
+    border-bottom: 0.2rem solid #855f4a; 
+    padding-bottom: 0.5rem; 
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.2);
+}
+
+.content h2 a {
+    color:#855f49;
     text-decoration: underline;
 }
 
@@ -33,17 +44,17 @@
     background-color: #d4c2b4;
     cursor: pointer;
     border-radius: 0.625rem;
-
+    color: #333;
 }
 
 .pagination button.active {
     background-color: #855f4a;
-    color: #333;
+    color: #fff;
 }
 
 .pagination button:disabled {
-    background-color: #855f4a;
-    color: #333;
+    background-color: #666;
+    color: #fff;
     cursor: not-allowed;
 }
 
@@ -60,7 +71,7 @@
     margin: 1rem auto;
     padding: 0.5rem;
     width: 25rem;
-    border: 0.063rem solid #ccc;
+    border: 0.063rem solid #d4c2b4;
     border-radius: 0.5rem;
 }
 
@@ -72,19 +83,19 @@
 .noResults p {
     margin: 1rem;
     font-size: 1.2rem;
-    color: #999;
+    color: #333;
 }
 
 .adoptBtn {
-    background-color: #d4c2b4; 
-    color: #333; 
+    background-color: #855f4a; 
+    color: #fff; 
     border: none; 
-    border-radius: 0.rem; 
+    border-radius: 0.25rem; 
     padding: 0.625rem 1.25rem;
     cursor: pointer; 
     transition: background-color 0.3s;
 }
 
 .adoptBtn:hover {
-    background-color: #855f4a; 
+    background-color: #d4c2b4; 
 }
