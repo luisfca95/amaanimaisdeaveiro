@@ -1,15 +1,13 @@
 import '../styles/Adotar.css';
 
-import React from "react";
-import { useState, useEffect } from "react";
-
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMars, faVenus } from '@fortawesome/free-solid-svg-icons';
 
 export default function Adopt() {
     const [animals, setAnimals] = useState([]);
-
     const [currentPage, setCurrentPage] = useState(1);
+    const [search, setSearch] = useState("");
     const itemsPerPage = 12;
 
     useEffect(() => {
@@ -18,11 +16,20 @@ export default function Adopt() {
         .then(data => setAnimals(data.animals));
     }, []);
 
+    const handleSearchChange = (event) => {
+        setSearch(event.target.value);
+        setCurrentPage(1);
+    };
+
+    const filteredAnimals = animals.filter(animal =>
+        animal.name.toLowerCase().includes(search.toLowerCase())
+    );
+
     const indexOfLastAnimal = currentPage * itemsPerPage;
     const indexOfFirstAnimal = indexOfLastAnimal - itemsPerPage;
-    const currentAnimals = animals.slice(indexOfFirstAnimal, indexOfLastAnimal);
+    const currentAnimals = filteredAnimals.slice(indexOfFirstAnimal, indexOfLastAnimal);
 
-    const totalPages = Math.ceil(animals.length / itemsPerPage);
+    const totalPages = Math.ceil(filteredAnimals.length / itemsPerPage);
 
     const handleClick = (pageNumber) => {
         setCurrentPage(pageNumber);
@@ -39,7 +46,7 @@ export default function Adopt() {
             setCurrentPage(currentPage + 1);
         }
     };
-    
+
     const getSexIcon = (sex) => {
         if (sex === 'M') {
             return <FontAwesomeIcon icon={faMars} className="mars-icon" />;
@@ -56,13 +63,27 @@ export default function Adopt() {
             </div>
             <div className="content">
                 <p>Caso pretenda adoptar um patudo, deverá preencher o formulário de pré-adopção, clicando <a href="https://docs.google.com/forms/d/e/1FAIpQLScMmQnDV5i6KQRLwAPzsigKC0Qz2WKYxlQGxm1CKZA0yw9RyQ/viewform" aria-label="Formulário de pré-adopção" target="_blank" rel="noopener noreferrer">aqui</a>.</p>
-                <div className="dog">
-                    {currentAnimals.map(animal => (
-                        <div key={animal.id}>
-                            <img src={animal.image} alt={animal.name} />
-                            <p>{animal.name} {getSexIcon(animal.sex)}</p>
+                <input 
+                    type="text" 
+                    placeholder="Pesquisar por nome" 
+                    value={search} 
+                    onChange={handleSearchChange} 
+                    className="searchBar"
+                />
+                <div className="dogs">
+                    {currentAnimals.length > 0 ? (
+                        currentAnimals.map(animal => (
+                            <div className="dog" key={animal.id}>
+                                <img src={animal.image} alt={animal.name} />
+                                <p>{animal.name} {getSexIcon(animal.sex)}</p>
+                            </div>
+                        ))
+                    ) : (
+                        <div className="noResults">
+                            <img src="/images/adotar/noResults.png" alt=""/>
+                            <p>Nenhum animal encontrado.</p>
                         </div>
-                    ))}
+                    )}
                 </div>
                 <div className="pagination">
                     <button onClick={handlePreviousClick} disabled={currentPage === 1}>
@@ -84,7 +105,6 @@ export default function Adopt() {
                     </button>
                 </div>
             </div>
-
         </div>
     );
 }

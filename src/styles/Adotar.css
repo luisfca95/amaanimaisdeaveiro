@@ -3,13 +3,13 @@
     text-decoration: underline;
 }
 
-.dog {
+.dogs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
 }
 
-.dog div {
+.dogs .dog {
     background-color: #f3f3f3;
     box-shadow: 0.063rem 0.063rem 0.063rem 0.063rem #855f49;
     margin: 0.625rem;
@@ -17,7 +17,7 @@
     transition: transform 0.3s;
 }
 
-.dog div:hover {
+.dogs .dog:hover {
     transform: scale(1.05);
 }
 
@@ -52,4 +52,24 @@
 
 .dog .mars-icon {
     color: #4169e1;
+}
+
+.searchBar {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    width: 25rem;
+    border: 0.063rem solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.noResults {
+    width: 50rem;
+    margin: 0 auto;
+}
+
+.noResults p {
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #999;
 }
