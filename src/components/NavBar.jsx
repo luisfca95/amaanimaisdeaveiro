@@ -7,7 +7,7 @@ export default function NavBar() {
         <div>
             <nav>
                 <ul className="navbar">
-                    <li><NavLink to="/SobreNos">SOBRE A AMA</NavLink></li>
+                    <li><NavLink to="/SobreNos" className="sobre">SOBRE A AMA</NavLink></li>
                     <li><NavLink to="/Adotar">ADOTAR</NavLink></li>
                     <li><NavLink to="/Ajudar">AJUDAR</NavLink></li>
                     <li><NavLink to="/Doar">DOAR</NavLink></li>

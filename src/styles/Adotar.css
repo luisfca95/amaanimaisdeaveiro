@@ -99,3 +99,16 @@
 .adoptBtn:hover {
     background-color: #d4c2b4; 
 }
+
+
+@media (max-width: 720px) {
+    .dogs {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .dogs {
+        grid-template-columns: 1fr;
+    }
+}

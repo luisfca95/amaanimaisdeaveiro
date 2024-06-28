@@ -21,3 +21,27 @@
 .image img:hover {
     transform: scale(1.05);
 }
+
+@media (max-width: 720px) {
+    .wrapper {
+        max-width: 25rem;
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+
+    .image img {
+        max-width: 10rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        max-width: 18rem;
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+
+    .image img {
+        max-width: 6rem;
+    }
+}

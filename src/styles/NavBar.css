@@ -21,3 +21,31 @@
     text-decoration: none;
     border-radius: 0.625rem;
 }
+
+@media (max-width: 720px) {
+    .navbar {
+        display: block;
+    }
+
+    .navbar li {
+        padding: 0.25rem;
+    }
+
+    .navbar a {
+        padding: 0.125rem 0.625rem;
+    }
+}
+
+@media (max-width: 480) {    
+    .navbar {
+        display: block;
+    }
+
+    .navbar li {
+        padding: 0.25rem;
+    }
+
+    .navbar a {
+        padding: 0.125rem 0.625rem;
+    }
+}

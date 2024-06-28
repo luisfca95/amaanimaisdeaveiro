@@ -42,3 +42,15 @@
     font-size: 1rem;
     color: #666;
 }
+
+@media (max-width: 720px) {
+    .waysHelping li {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .waysHelping li {
+        font-size: 0.6rem;
+    }
+}

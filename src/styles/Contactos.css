@@ -54,3 +54,27 @@
 .contactUs button:hover {
     background-color: #d4c2b4; 
 }
+
+.successMessage {
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.successMessage.hidden {
+    opacity: 0;
+}
+
+@media (max-width: 720px) {
+    .contacts {
+        display: inline;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacts {
+        display: inline;
+    }
+}
