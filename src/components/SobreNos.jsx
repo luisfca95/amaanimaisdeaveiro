@@ -12,7 +12,7 @@ export default function SobreNos() {
                     <div className="wrapper">
                         <div className="text">
                             <h2>Quem somos?</h2>
-                            <p>A Associação de Animais de Aveiro iniciou as suas atividades a 11 de Julho de 2018. O objetivo principal é colaborar com o Abrigo Quintã do Loureiro, sendo que grande parte dos seus dirigentes fazem voluntariado neste Abrigo e conhecem as suas necessidades.</p>  
+                            <p>A Associação de Animais de Aveiro iniciou as suas atividades a 11 de Julho de 2018. O objetivo principal é colaborar com o Abrigo Quintã do Loureiro<span>, sendo que grande parte dos seus dirigentes fazem voluntariado neste Abrigo e conhecem as suas necessidades</span>.</p>  
                         </div>
                         <div className="image">
                             <img src="/images/quemsomos/quemsomos.jpg" alt=""/>

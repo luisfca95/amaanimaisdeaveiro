@@ -1,7 +1,8 @@
 .wrapper {
     display: flex;
     align-items: center;
-    margin: 1rem 0;
+    max-width: 42rem;
+    margin: 1rem auto;
     padding: 1rem;
     background: #f3f3f3;
     box-shadow: 0.188rem 0.188rem #855f49, -1em 0 .4em #d4c3b4;
@@ -13,7 +14,7 @@
 }
 
 .image img {
-    max-width: 23rem;
+    max-width: 20rem;
     border-radius: 0.5rem;
     transition: transform 0.3s ease-in-out;
 }
@@ -32,16 +33,25 @@
     .image img {
         max-width: 10rem;
     }
+
+    .text span {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
     .wrapper {
-        max-width: 18rem;
+        display: inline-block;
+        max-width: 16rem;
         margin: 1rem auto;
         padding: 1rem;
     }
 
     .image img {
-        max-width: 6rem;
+        max-width: 8rem;
+    }
+
+    .text span {
+        display: none;
     }
 }

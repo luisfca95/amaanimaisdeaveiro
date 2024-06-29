@@ -49,11 +49,29 @@
 }
 
 @media (max-width: 720px) {
+    .content {
+        max-width: 30rem;
+    }
 
+    .donations {
+        display: inline;
+    }
+
+    .donationList li {
+        font-size: 1rem;
+    } 
 }
 
 @media (max-width: 480px) {
+    .content {
+        max-width: 16rem;
+    }
+
     .donations {
         display: inline;
+    }
+
+    .donationList li {
+        font-size: 1rem;
     }
 }

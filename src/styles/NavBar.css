@@ -10,8 +10,9 @@
 
 .navbar a {
     font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    text-transform: uppercase;
     color: #ffffff;
+    font-weight: 600;
     padding: 1.125rem 1.563rem;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -22,8 +23,37 @@
     border-radius: 0.625rem;
 }
 
+.hamburgerBar {
+    display: none;
+    background-color: #343a40;
+}
+
+.hamburger {
+    display: none;
+    margin: 0 auto;
+    background-color: #343a40;
+    font-size: 2rem;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
 @media (max-width: 720px) {
+    .hamburgerBar {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 2rem;
+    }
+
     .navbar {
+        display: none;
+        flex-direction: column;
+    }
+
+    .navbar.active {
         display: block;
     }
 
@@ -32,12 +62,26 @@
     }
 
     .navbar a {
+        display: block;
         padding: 0.125rem 0.625rem;
     }
 }
 
-@media (max-width: 480) {    
+@media (max-width: 480px) {    
+    .hamburgerBar {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
     .navbar {
+        display: none;
+        flex-direction: column;
+    }
+
+    .navbar.active {
         display: block;
     }
 
@@ -46,6 +90,7 @@
     }
 
     .navbar a {
+        display: block;
         padding: 0.125rem 0.625rem;
     }
 }
