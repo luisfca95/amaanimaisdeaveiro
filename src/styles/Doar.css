@@ -1,5 +1,4 @@
 .donationList h2, .donations h3 {
-    font-size: 1rem; 
     font-weight: bold; 
     color: #333; 
     margin: 1rem 0; 
@@ -49,8 +48,9 @@
 }
 
 @media (max-width: 720px) {
-    .content {
-        max-width: 30rem;
+    .donationList, .donations, .thanks {
+        max-width: 28rem;
+        margin: 0 auto;
     }
 
     .donations {
@@ -59,12 +59,13 @@
 
     .donationList li {
         font-size: 1rem;
-    } 
+    }
 }
 
 @media (max-width: 480px) {
-    .content {
-        max-width: 16rem;
+    .donationList, .donations, .thanks {
+        max-width: 17rem;
+        margin: 0 auto;
     }
 
     .donations {

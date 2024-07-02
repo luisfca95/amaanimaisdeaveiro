@@ -71,10 +71,21 @@
     .contacts {
         display: inline;
     }
+
+    .map {
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+
 }
 
 @media (max-width: 480px) {
     .contacts {
         display: inline;
+    }
+
+    .map {
+        max-width: 20rem;
+        margin: 0 auto;
     }
 }

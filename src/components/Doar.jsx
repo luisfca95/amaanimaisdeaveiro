@@ -9,8 +9,8 @@ export default function Doar() {
             </div>
 
             <div className="content">
+                <h2>O seu donativo ajuda a garantir:</h2>
                 <div className="donationList">
-                    <h2>O seu donativo ajuda a garantir:</h2>
                     <ul>
                         <li>Cuidados veterinários para animais doentes e feridos, incluindo cirurgias, medicação, fisioterapia e acompanhamento especializado.</li>
                         <li>Alimentação e abrigo seguro num ambiente livre de maus-tratos, proporcionando bem-estar físico e emocional aos animais resgatados.</li>

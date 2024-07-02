@@ -1,5 +1,4 @@
 .content h2 {
-    font-size: 1rem; 
     font-weight: bold; 
     margin: 1rem 0; 
     text-transform: uppercase; 
@@ -76,7 +75,7 @@
 }
 
 .noResults {
-    width: 50rem;
+    width: 45rem;
     margin: 0 auto;
 }
 
@@ -100,22 +99,22 @@
     background-color: #d4c2b4; 
 }
 
-
 @media (max-width: 720px) {
     .dogs {
-        grid-template-columns: 1fr 1fr;
         max-width: 20rem;
+        grid-template-columns: 1fr 1fr;
         margin: 0 auto;
     }
 }
 
 @media (max-width: 480px) {
     .dogs {
+        max-width: 20rem;
         grid-template-columns: 1fr;
     }
 
     .searchBar {
-        width: 18rem;
+        width: 14rem;
     }
 
     .pagination button {
