@@ -53,17 +53,17 @@ export default function Voluntariado() {
                 <img src="/images/banners/ajudar.jpg" alt=""/>
                 <div className="title"><h1>Ajudar</h1></div>
             </div>
-            <div className="content">
+            <main className="content">
                 <h2>Estas são as formas de ajudar os nossos patudos...</h2>
-                <ul className="waysHelping">
+                <dl className="waysHelping">
                     {items.map((item, index) => (
-                        <li key={index} onClick={() => handleExpand(index)}>
+                        <dt key={index} onClick={() => handleExpand(index)}>
                             <FontAwesomeIcon icon={faPaw} /> &nbsp; {item.title}
-                            {expandedIndex === index && <p>{item.content}</p>}
-                        </li>
+                            {expandedIndex === index && <dd>{item.content}</dd>}
+                        </dt>
                     ))}
-                </ul>
-            </div>
+                </dl>
+            </main>
         </div>
     );
 }

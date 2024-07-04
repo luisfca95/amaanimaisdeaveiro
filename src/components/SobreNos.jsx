@@ -7,7 +7,7 @@ export default function SobreNos() {
                 <h1>Sobre a AMA</h1>
                 <img src="/images/banners/sobre.jpg" alt=""/>
             </div>
-            <div className="content">
+            <main className="content">
                 <div className="aboutUs">
                     <div className="wrapper">
                         <div className="text">
@@ -37,7 +37,7 @@ export default function SobreNos() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </main>
         </div>
     );
 }

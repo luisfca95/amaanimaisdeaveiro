@@ -8,7 +8,7 @@ export default function Doar() {
                 <div className="title"><h1>Doar</h1></div>
             </div>
 
-            <div className="content">
+            <main className="content">
                 <h2>O seu donativo ajuda a garantir:</h2>
                 <div className="donationList">
                     <ul>
@@ -34,7 +34,7 @@ export default function Doar() {
                     <p>Obrigado pelo seu donativo! <br/> A sua contribuição é importante para continuarmos a proteger os animais que mais precisam.</p>
                     <p>Juntos, fazemos a diferença!</p>
                 </div>
-            </div>
+            </main>
         </div>
     );
 }
