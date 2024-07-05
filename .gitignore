@@ -23,6 +23,3 @@ yarn-debug.log*
 yarn-error.log*
 
 # resources
-/public/*.png
-/public/*.ico
-/public/images
