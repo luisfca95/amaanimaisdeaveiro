@@ -4,7 +4,7 @@ export default function Doar() {
     return (
         <div>
             <div className="banner">
-                <img src="/images/banners/doar.jpg" alt=""/>
+                <img src="./images/banners/doar.jpg" alt=""/>
                 <div className="title"><h1>Doar</h1></div>
             </div>
 
@@ -19,12 +19,12 @@ export default function Doar() {
 
                 <div className="donations">
                     <div className="mbway">
-                        <img src="/images/mb.png" alt="MBWay" />
+                        <img src="./images/mb.png" alt="MBWay" />
                         <h3>MBWay</h3>
                         <p>910 425 702</p>
                     </div>
                     <div className="wire">
-                        <img src="/images/tb.png" alt="Transferência Bancária" />
+                        <img src="./images/tb.png" alt="Transferência Bancária" />
                         <h3>IBAN</h3>
                         <p>PT50 0036 0379 99106009374 74</p>
                     </div>

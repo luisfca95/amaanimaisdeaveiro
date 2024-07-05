@@ -59,7 +59,7 @@ export default function Adopt() {
         <div>
             <div className="banner">
                 <h1>Adotar</h1>
-                <img src="/images/banners/adotar.jpg" alt=""/>
+                <img src="./images/banners/adotar.jpg" alt=""/>
             </div>
             <main className="content">
                 <h2>Caso pretenda adoptar um patudo, deverá preencher o formulário de pré-adopção, clicando <a href="https://docs.google.com/forms/d/e/1FAIpQLScMmQnDV5i6KQRLwAPzsigKC0Qz2WKYxlQGxm1CKZA0yw9RyQ/viewform" aria-label="Formulário de pré-adopção" target="_blank" rel="noopener noreferrer">aqui</a>.</h2>
@@ -83,7 +83,7 @@ export default function Adopt() {
                         ))
                     ) : (
                         <div className="noResults">
-                            <img src="/images/adotar/noResults.png" alt=""/>
+                            <img src="./images/adotar/noResults.png" alt=""/>
                             <p>Nenhum animal encontrado.</p>
                         </div>
                     )}
